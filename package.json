@@ -1,4 +1,23 @@
 {
+  "name": "group11_bootstrap_inm320sdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicobama08/Group11_Bootstrap_INM320SDD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicobama08/Group11_Bootstrap_INM320SDD/issues"
+  },
+  "homepage": "https://github.com/Nicobama08/Group11_Bootstrap_INM320SDD#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
   }
