@@ -1,155 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
-    <!--Latest stories-->
-    <section id="latest stories">
-        <h1>LATEST STORIES</h1>
-        <p>subscribe for full access to read stories from National Geographic.</p>
+  <!--Latest stories-->
+  <section id="latest stories">
+    <h1>LATEST STORIES</h1>
+    <p>subscribe for full access to read stories from National Geographic.</p>
 
-        <div id="todays pick">
-            <!--Columna izquierda con entradas a blogs-->
-            <h2>TODAY'S PICK</h2>
-        </div>
+    <div id="todays pick">
+      <!--Columna izquierda con entradas a blogs-->
+      <h2>TODAY'S PICK</h2>
+    </div>
 
-        <div class="grid de 3">
-            <!--Aqui va un grid para entradas a otros blogs, uno grande arriba y dos peque;os abajo-->
+    <div class="grid de 3">
+      <!--Aqui va un grid para entradas a otros blogs, uno grande arriba y dos peque;os abajo-->
 
-        </div class>
-            
-        <a href="">SEE MORE</a>
-    </section>
+    </div class>
 
-    <section id="animals up close">
-        <h3>ANIMALS UP CLOSE WITH BERTIE GREGORY</h3>
-        <p>Bertie Gregory is back, and this time the adventures are even more epic! Animals Up
-             Close with Bertie Gregory goes behind-the-scenes with Bertie and his team as they
-              adapt to unpredictable wildlife in remote environments – where filming rarely goes
-               as planned.
-        </p>
-        <a href="">STREAM NOW</a>
+    <a href="">SEE MORE</a>
+  </section>
 
-        <div>
-            <!--Aqui va un carrusel de las series de natgeo en disney+-->
-            <h3>DISCOVER MORE ON DISNEY+</h3>
-            <a href="">SEE SHOWS</a>
-        </div>
-    </section>
-
-    <section id="nat geo tv">
-        <h1>NAT GEO TV</h1>
-        <!--Aqui va un carrusel sencillo de los shows de natgeo-->
-    </section>
-
-    <section id="travel">
-        <h1>TRAVEL</h1>
-        <div class="grid de 3">
-            <!--Aqui va un grid igual al de latest stories, pero a la izquierda-->
-
-        </div>
-        
-        <div>
-            <!--Aqui va una columna de entradas igual a latest stories, pero a la derecha-->
-
-        </div>
-    </section>
-
-    <section id="december 2023">
-        <H1>DECEMBER 2023 ISSUE</H1>
-        <a href="">Subscribe</a>
-        <p>to see the stories from National Geographic magazine</p>
-
-        <div class="grid de 3">
-            <!--Aqui va un grid igual al de latest stories, pero a la izquierda-->
-
-        </div>
-        
-        <div>
-            <!--Aqui va una columna de entradas igual a latest stories, pero a la derecha-->
-
-        </div>
-    </section>
-
-    <section id="natgeo society">
-        <h2>THE NATIONAL GEOGRAPHIC SOCIETY MISSION</h2>
-        <image></image>
-        <h3>National Geographic's nonprofit work</h3>
-        <p>The National Geographic Society invests in
-            innovative leaders in science, exploration,
-            education and storytelling to illuminate and
-            protect the wonder of our world.
-        </p>
-    </section>
-
-    <section>
-        <h2>THE BEST OF NATIONAL GEOGRAPHIC DELIVERED TO YOUR INBOX</h2>
-        <p>Sign up for more inspiring photos, stories, and special offers from National Geographic.</p>
-        <button>SIGN UP</button>
-
-        <div>
-            <li>
-                <h4>LEGAL</h4>
-                <a></a>
-            </li>
-            <li>
-                <h4>OUR SITES</h4>
-                <a></a>
-            </li>
-            <li>
-                <h4>JOIN US</h4>
-                <a></a>
-            </li>
-            <li>
-                <h4>FOLLOW US</h4>
-                <a></a>
-            </li>
-        </div>
-    </section>
+  <section id="animals up close">
+    <h3>ANIMALS UP CLOSE WITH BERTIE GREGORY</h3>
+    <p>Bertie Gregory is back, and this time the adventures are even more epic! Animals Up
+      Close with Bertie Gregory goes behind-the-scenes with Bertie and his team as they
+      adapt to unpredictable wildlife in remote environments – where filming rarely goes
+      as planned.
+    </p>
+    <a href="">STREAM NOW</a>
 
     <div>
-        <!--page button-->
+      <!--Aqui va un carrusel de las series de natgeo en disney+-->
+      <h3>DISCOVER MORE ON DISNEY+</h3>
+      <a href="">SEE SHOWS</a>
     </div>
+  </section>
+
+  <section id="nat geo tv">
+    <h1>NAT GEO TV</h1>
+    <!--Aqui va un carrusel sencillo de los shows de natgeo-->
+  </section>
+
+  <section id="travel">
+    <h1>TRAVEL</h1>
+    <div class="grid de 3">
+      <!--Aqui va un grid igual al de latest stories, pero a la izquierda-->
+
+    </div>
+
+    <div>
+      <!--Aqui va una columna de entradas igual a latest stories, pero a la derecha-->
+
+    </div>
+  </section>
+
+  <section id="december 2023">
+    <H1>DECEMBER 2023 ISSUE</H1>
+    <a href="">Subscribe</a>
+    <p>to see the stories from National Geographic magazine</p>
+
+    <div class="grid de 3">
+      <!--Aqui va un grid igual al de latest stories, pero a la izquierda-->
+
+    </div>
+
+    <div>
+      <!--Aqui va una columna de entradas igual a latest stories, pero a la derecha-->
+
+    </div>
+  </section>
+
+  <section id="natgeo society">
+    <h2>THE NATIONAL GEOGRAPHIC SOCIETY MISSION</h2>
+    <image></image>
+    <h3>National Geographic's nonprofit work</h3>
+    <p>The National Geographic Society invests in
+      innovative leaders in science, exploration,
+      education and storytelling to illuminate and
+      protect the wonder of our world.
+    </p>
+  </section>
+
+  <section>
+    <h2>THE BEST OF NATIONAL GEOGRAPHIC DELIVERED TO YOUR INBOX</h2>
+    <p>Sign up for more inspiring photos, stories, and special offers from National Geographic.</p>
+    <button>SIGN UP</button>
+
+    <div>
+      <li>
+        <h4>LEGAL</h4>
+        <a></a>
+      </li>
+      <li>
+        <h4>OUR SITES</h4>
+        <a></a>
+      </li>
+      <li>
+        <h4>JOIN US</h4>
+        <a></a>
+      </li>
+      <li>
+        <h4>FOLLOW US</h4>
+        <a></a>
+      </li>
+    </div>
+  </section>
+
+  <div>
+    <!--page button-->
+  </div>
 </body>
+
 </html>
