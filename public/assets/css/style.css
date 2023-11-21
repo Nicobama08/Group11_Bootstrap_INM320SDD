@@ -1,3 +1,16 @@
 h1{
     size: 100px;
 }
+
+.side-nav{
+    background-color: rgb(53, 53, 53);
+    width: 200px;
+}
+
+.side-nav a{
+    color: beige;
+}
+
+.side-nav p{
+    color: beige;
+}
