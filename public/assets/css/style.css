@@ -1,12 +1,12 @@
 #uppernav{
-    margin-left: 200px;
+    margin-left: 255px;
     position: fixed;
 }
 
 /*side navbar*/
 .side-nav{
     background-color: rgb(53, 53, 53);
-    width: 200px;
+    width: 255px;
     height: 1400px;
     position: fixed;
 }
@@ -21,7 +21,6 @@
 
 /*Row of this small cards in the upper part of the page*/
 #grid1 {
-
     margin-left: 300px;
     padding: auto;
 }
@@ -32,11 +31,11 @@
 
 
 .list-group{
-    margin-left: 200px;
+    margin-left: 255px;
 }
 
 
 
 #grid2 {
-    margin: 200px;
+    margin: 255px;
 }
