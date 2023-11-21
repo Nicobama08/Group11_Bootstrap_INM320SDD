@@ -1,10 +1,10 @@
-h1{
-    size: 100px;
-}
+
 
 .side-nav{
     background-color: rgb(53, 53, 53);
     width: 200px;
+    height: 1400px;
+    position: fixed;
 }
 
 .side-nav a{
@@ -13,4 +13,8 @@ h1{
 
 .side-nav p{
     color: beige;
+}
+
+.card{
+    width: 400px;
 }
