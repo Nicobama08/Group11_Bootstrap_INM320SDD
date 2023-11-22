@@ -1,41 +1,97 @@
 #uppernav{
     margin-left: 100px;
     position: fixed;
-}
+} */
 
 /*side navbar*/
 .side-nav{
+    padding-top: 50px;
     background-color: rgb(53, 53, 53);
-    width: 255px;
-    height: 1400px;
+    width: 15.625%;
+    height: 100%;
     position: fixed;
 }
 
 .side-nav a{
-    color: beige;
+    color: rgb(255, 255, 255);
 }
 
 .side-nav p{
-    color: beige;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-bottom: 40px;
 }
 
-/*Row of this small cards in the upper part of the page*/
-/* #grid1 {
+li.nav-item {
+    height: 40px;
+    
+}
+
+a.nav-link {
+    font-size: 20px;
+}
+
+Row of this small cards in the upper part of the page*/
+#grid1 {
     margin-left: 300px;
 
-} */
+}
 
-.row {
+div.col-md-3{
+    width: 320px;
+    padding: auto;
+    margin: auto;
     background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: rgb(165, 165, 165);
+}
+
+div.row {
+    grid-gap: 10px;
+}
+
+div.col-md-3 p{
+    text-align: center;
+}
+
+div.col-md-3 h1{
+    text-align: center;
 }
 
 
-.list-group{
-    margin-left: 255px;
+/*Main content*/
+#maincontent {
+    height: 600px;
+    margin: 30px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(165, 165, 165);
+    border-radius: 15px;
 }
 
+ul#mainlist {
+    padding-top: 100px;
+    margin-left: 900px;
+}
 
 
 #grid2 {
-    margin: 255px;
+    padding-top: 10px;
+
+}
+
+.row2 {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 650px);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#col-i {
+    grid-column: 1 / 1;
+    grid-row: 1;
 }
