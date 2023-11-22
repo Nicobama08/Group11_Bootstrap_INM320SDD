@@ -3,39 +3,126 @@
     position: fixed;
 } */
 
+
+
 /*side navbar*/
 .side-nav{
+    padding-top: 50px;
     background-color: rgb(53, 53, 53);
-    width: 255px;
-    height: 1400px;
+    width: 15.625%;
+    height: 100%;
     position: fixed;
 }
 
 .side-nav a{
-    color: beige;
+    color: rgb(255, 255, 255);
 }
 
 .side-nav p{
-    color: beige;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-bottom: 40px;
 }
 
-Row of this small cards in the upper part of the page*/
+li.nav-item {
+    height: 40px;
+    
+}
+
+a.nav-link {
+    font-size: 20px;
+}
+
+/*INSIDE MAIN*/
+
+/*main*/
+#main {
+    width: 84.375%;
+    background-color: rgb(217, 217, 217);
+    padding-bottom: 100px;
+}
+
+/*upper navbar*/
+body {
+    background-color: rgb(114, 114, 114);
+    max-width: auto;
+}
+
+#uppernav {
+    padding-top: 50px;
+    margin-left: 60px;
+}
+
+#uppernav h1{
+    font-size: 30px;
+}
+
+#search {
+    width: 500px;
+    margin-left: 400px;
+    margin-top: -40px;
+}
+
+/*Row of this small cards in the upper part of the page*/
 #grid1 {
-    margin-left: 300px;
-
+    margin:auto;
+    padding-top: 100px;
+    width: auto;
 }
 
-.row {
+div.col-md-3{
+    width: 19%;
+    padding: auto;
+    margin: auto;
     background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: rgb(165, 165, 165);
+}
+
+div.row {
+    grid-gap: 3%;
+}
+
+div.col-md-3 p{
+    text-align: center;
+}
+
+div.col-md-3 h1{
+    text-align: center;
 }
 
 
-.list-group{
-    margin-left: 255px;
+/*Main content*/
+#maincontent {
+    height: 600px;
 }
 
+ul#mainlist {
+    padding-top: 100px;
+    margin-left: 900px;
+    margin-right: 100px;
+}
 
 
 #grid2 {
-    margin: 255px;
+    padding-top: 100px;
+
+}
+
+.row2 {
+    padding-left: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    grid-gap: 30px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#col-i {
+    grid-column: 1 / 1;
+    grid-row: 1;
+}
+#col-d {
+
 }
