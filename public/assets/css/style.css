@@ -67,7 +67,7 @@ div#search {
 }
 
 div.col-md-3{
-    width: 19%;
+    width: 320px;
     padding: auto;
     margin: auto;
     background-color: rgb(255, 255, 255);
@@ -78,7 +78,7 @@ div.col-md-3{
 }
 
 div.row {
-    grid-gap: 3%;
+    grid-gap: 10px;
 }
 
 div.col-md-3 p{
@@ -93,7 +93,7 @@ div.col-md-3 h1{
 /*Main content*/
 #maincontent {
     height: 600px;
-    margin: 50px;
+    margin: 30px;
     padding: 20px;
     background-color: rgb(255, 255, 255);
     border-style: solid;
@@ -108,15 +108,15 @@ ul#mainlist {
 
 
 #grid2 {
-    padding-top: 100px;
+    padding-top: 10px;
 
 }
 
 .row2 {
-    padding-left: 150px;
+    padding: 30px;
     display: grid;
-    grid-template-columns: repeat(2, 500px);
-    grid-gap: 30px;
+    grid-template-columns: repeat(2, 650px);
+    grid-gap: 20px;
     grid-auto-rows: minmax(100px, auto);
 }
 
